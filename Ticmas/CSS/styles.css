@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    color: red;
+    width: 300px;
+}
+
+/**
+Esto es un comentario
+*/
+
+h1 {
+    border: 2px dashed red;
+    padding: 5px;
+    margin: 30px;
+    font-weight: bold;
+    color: lightblue;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    /**background-color: pink;*/
+}
+
+#mi_parrafo {
+    color: green;
+    border: 1px solid blue;
+}
+
+.miclaseAzul {
+    color: blue;
+}
+
+.miclaseVioleta {
+    color: violet;
+}
+
+.miclaseNaranja {
+    color: orange;
+}

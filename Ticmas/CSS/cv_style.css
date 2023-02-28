@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    text-align: justify;
+}
+
+@media only screen and (min-width: 768px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+#perfil {
+    color: white;
+    background-color: #8fbe80;
+}
+
+#header {
+    background-color: aqua;
+}
+
+#experiencia {
+    color: #8fbe80;
+    margin-top: 1px;
+}
+
+#exp {
+    margin-top: 40px;
+    margin-bottom: 1px;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.detalles {
+    display: none;
+}
+
+.ocultar {
+    display: none;
+}
+
+#cambiar_color {
+    text-align: right;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#reset_color {
+    text-align: right;
+    display: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+button {
+    background-color: #8fbe80;
+    border: none;
+    border-radius: 12px;
+    color: antiquewhite;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

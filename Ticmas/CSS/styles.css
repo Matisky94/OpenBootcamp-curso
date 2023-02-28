@@ -28,6 +28,9 @@ section {
 }
 
 #mi_parrafo {
+    /**
+    #loquesea hace referencia a un objeto con el ID "loquesea"
+    */
     color: green;
     border: 1px solid blue;
 }
